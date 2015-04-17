@@ -1,17 +1,15 @@
 html{
-	box-sizing: html {
-	  box-sizing: border-box;
-	}
+  box-sizing: border-box;
+}
 	
-	*, *::before, *::after {
+*, *::before, *::after {
 	  box-sizing: inherit;
-};
+}
 
 body{
 	margin: 0;
 	font-family: 'Fira Sans', sans-serif;
 	font-style: normal;
-	color: red;
 }
 
 header{
@@ -20,13 +18,36 @@ header{
 	text-align: center;
 	color: #7C9161;
 	margin: 0;
-	padding: 2em;
+	padding: 1em;
+}
+
+h1{
 	font-family: 'Fira Sans', sans-serif;
-	font-style: 300;
+	font-style: 700 italic;
+	font-size: 16pt;
 }
 
 nav{
 	margin: 0;
 	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
 
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav li{
+	float: left;
+	width: 33%;
+	list-style-type: none;
+}
+
+nav a{
+	text-decoration: none;
+	font-style: normal;
+	font-size: 18px;
+	color: ;
 }
