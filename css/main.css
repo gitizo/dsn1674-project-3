@@ -1,0 +1,31 @@
+html{
+	box-sizing: html {
+	  box-sizing: border-box;
+	}
+	
+	*, *::before, *::after {
+	  box-sizing: inherit;
+};
+
+body{
+	margin: 0;
+	font-family: 'Fira Sans', sans-serif;
+	font-style: normal;
+}
+
+header{
+	margin: 0;
+	background-color: #F9F6D9;
+	text-align: center;
+	color: #7C9161;
+	margin: 0;
+	padding: 2em;
+	font-family: 'Fira Sans', sans-serif;
+	font-style: 300;
+}
+
+nav{
+	margin: 0;
+	width: 100%;
+	
+}
