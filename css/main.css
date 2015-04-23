@@ -118,11 +118,18 @@ background-size: cover;
 figcaption{
   position: absolute;
   text-align: center;
-  bottom: .3em;
+  bottom: 1em;
   width: 100%;
-  color: red;
-	
+  color: #fff;
+  font-size: 3em;
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding: 0.5em;
+  left: 8px;
+  text-shadow: 1px 1px 5px black;
 }
+
 .specials h2{
 	font-weight: normal;
 	font-style: italic;
@@ -201,7 +208,7 @@ figcaption{
 
 p{
 	margin: 0;
-	padding-left: 0.5em;
+	padding-left: 1em;
 	padding-bottom: 1em;
 	padding-top: 0.5em;
 }
@@ -211,7 +218,7 @@ h4{
 	margin-top : 10px;
 	margin-bottom: 0;
 	margin-left: 0;
-	padding-left: 0.5rem;
+	padding-left: 1rem;
 	margin-left: 0;
 	font-weight: lighter;
 
