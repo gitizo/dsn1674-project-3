@@ -89,7 +89,7 @@ background-size: cover;
   padding-bottom: 1em;
   padding-left: 0.5em;
   width: 100%;
-  text-align: left;
+  text-align: top-left;
   font-weight: normal;
   font-style: italic;
   font-size: 2em;
@@ -117,17 +117,16 @@ background-size: cover;
 
 figcaption{
   position: absolute;
-  text-align: center;
-  bottom: 1em;
+  text-align: left;
+  bottom: 2em;
   width: 100%;
   color: #fff;
-  font-size: 3em;
+  font-size: 1.5em;
   font-style: italic;
   font-weight: lighter;
   padding-left: 2em;
   padding: 0.5em;
-  left: 8px;
-  text-shadow: 1px 1px 5px black;
+  left: 20px;
 }
 
 .specials h2{
@@ -136,14 +135,14 @@ figcaption{
 	color: #F9F6D9;
 	background-color: #B83E41;
 	font-size: 24px;
-	padding:top, bottom: 0.5rem;
-	padding: 0.5rem;
+	padding: 0.5rem 0 .5rem 0;
+
 	margin:0;
 }
 
 .menu{
 	background-color: #F9F6D9;
-	padding: top, bottom: 1em;
+	padding-top, bottom: 1em;
 	padding:0.5em;
 	margin: 0;
 }
@@ -154,7 +153,7 @@ figcaption{
 	font-size: 1.5em;
 	color: #B83E41;
 	text-align: center;
-	padding: top 0.5em;
+	padding-top: 0.5em;
 }
 
 .cream-back h2{
@@ -177,9 +176,9 @@ figcaption{
 	color: #F9F6D9;
 	background-color: #B83E41;
 	font-size: 24px;
-	padding:top, bottom 0.5rem;
+	padding-top, bottom: 0.5rem;
 	padding: 0.5rem;
-	margin:0.5;
+	margin:0;
 }
 
 .white-back{
@@ -191,7 +190,7 @@ figcaption{
 
 
 .cream-back{
-	padding:top, bottom: 2em;
+	padding-top, bottom: 2em;
 	background-color: #F9F6D9;
 }
 
@@ -201,7 +200,7 @@ figcaption{
 	color: #F9F6D9;
 	background-color: #B2B25A;
 	font-size: 24px;
-	padding:top, bottom: 0.5rem;
+	padding-top, bottom: 0.5rem;
 	margin:0;
 
 }
@@ -209,13 +208,13 @@ figcaption{
 p{
 	margin: 0;
 	padding-left: 1em;
-	padding:bottom 1em;
-	padding:top 0.5em;
+	padding-bottom: 1em;
+	padding-top: 0.5em;
 }
 
 h4{
 	font-size: 1.5em;
-	margin:top  10px;
+	margin-top : 10px;
 	margin-bottom: 0;
 	margin-left: 0;
 	padding-left: 1rem;
@@ -227,8 +226,8 @@ h4{
 .price{
 	float: right;
 	padding: 0.5em;
-	margin: bottom 0.5em;
-	margin: top 0.5em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
 }
 
 
@@ -294,7 +293,7 @@ h3{
 	color: #F9F6D9;
 	background-color: #B83E41;
 	font-size: 24px;
-	padding-top, bottom: 0.5rem;
+	padding: o.5rem 0 0.5rem 0;
 	padding: 0.5rem;
 	margin:0;
 }
@@ -311,20 +310,16 @@ a img{
 }
 
 .contact-back{
-	padding-top: 0em;
-	padding-bottom: 0em;
+	padding:0;
 	background-color: #fff;
 }
 
 footer{
 	position: relative; 
-	padding:top: -10%;
+	padding: -10% 0 100px 0;
 	margin:0;
-	padding:0;
-	
 	width:100%;
 	background-color: #F9F6D9;
-	padding-bottom: 100px;
 }
 
 .last-bar{
