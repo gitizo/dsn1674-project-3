@@ -89,7 +89,7 @@ background-size: cover;
   padding-bottom: 1em;
   padding-left: 0.5em;
   width: 100%;
-  text-align: top-left;
+  text-align: left;
   font-weight: normal;
   font-style: italic;
   font-size: 2em;
@@ -142,8 +142,7 @@ figcaption{
 
 .menu{
 	background-color: #F9F6D9;
-	padding-top, bottom: 1em;
-	padding:0.5em;
+	padding: 1rem 0.5rem 1rem 0.5rem;
 	margin: 0;
 }
 
@@ -176,7 +175,6 @@ figcaption{
 	color: #F9F6D9;
 	background-color: #B83E41;
 	font-size: 24px;
-	padding-top, bottom: 0.5rem;
 	padding: 0.5rem;
 	margin:0;
 }
@@ -200,9 +198,8 @@ figcaption{
 	color: #F9F6D9;
 	background-color: #B2B25A;
 	font-size: 24px;
-	padding-top, bottom: 0.5rem;
-	margin:0;
-
+	padding: 0.5rem 0 0.5rem 0;
+	margin: 0;
 }
 
 p{
@@ -290,7 +287,7 @@ h3{
 	color: #F9F6D9;
 	background-color: #B83E41;
 	font-size: 24px;
-	padding: o.5rem 0 0.5rem 0;
+	padding: 0.5rem 0 0.5rem 0;
 	margin:0;
 }
 
