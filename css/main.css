@@ -16,13 +16,14 @@ body{
 
 header{
 
-	padding: 2em;
+	padding: 2em 0.5em 2em 0.5em;
 	background-color: #F9F6D9;
 	background-size: 95%;
 	text-align: center;
 	color: #7C9161;
 	margin: 0;
-	padding: 1em;
+	position: fixed;
+	z-index:2;
 }
 
 .logo{
@@ -47,6 +48,7 @@ nav{
 	width: 100%;
 	overflow: hidden;
 	text-align: center;
+	position: fixed;
 }
 
 nav ul{
@@ -84,7 +86,7 @@ background-size: cover;
 
 .banner h1 {
   margin: 0;
-  padding-top: 3.5em;
+  padding-top: 6em;
   color: white;
   padding-bottom: 1em;
   padding-left: 0.5em;
@@ -152,6 +154,7 @@ figcaption{
 	color: #B83E41;
 	text-align: center;
 	padding-top: 0.5em;
+	margin:0;
 }
 
 .cream-back h2{
@@ -161,6 +164,7 @@ figcaption{
 	color: #B83E41;
 	text-align: center;
 	padding: 0.5em;
+	margin: 0;
 }
 
 .intro{
@@ -175,20 +179,22 @@ figcaption{
 	background-color: #B83E41;
 	font-size: 24px;
 	padding: 0.5rem;
-	margin:0;
+	margin:0 0 0 0;
 }
 
 .white-back{
 	padding-top: 0em;
-	padding-bottom: 2em;
+	padding-bottom: 0.5em;
 	background-color: #fff;
+	margin:0;
 }
 
 
 
 .cream-back{
-	padding-top, bottom: 2em;
+	padding:0 0 2em 0;
 	background-color: #F9F6D9;
+
 }
 
 .green-bar {
@@ -198,28 +204,28 @@ figcaption{
 	background-color: #B2B25A;
 	font-size: 24px;
 	padding: 0.5rem;
-	margin: 0;
+	margin: 1em 0 0 0;
 }
 
 p{
 	margin: 0;
 	padding-left: 1em;
-	padding-bottom: 1em;
+	padding-bottom: 0;
 	padding-top: 0.5em;
 }
 
 h4{
 	font-size: 1.5em;
 	margin: 0.5rem;
-	padding: 0 0 0 1rem;
+	padding: 0 0 0 0.5rem;
 	font-weight: lighter;
 
 }
 
 .price{
 	float: right;
-	padding: 0.5em;
-	margin: 0.5rem 0 0.5rem 0;
+	padding: 0.5em 0.5em 0 0;
+	margin:0;
 	
 }
 
@@ -286,9 +292,10 @@ h3{
 	color: #F9F6D9;
 	background-color: #B83E41;
 	font-size: 24px;
-	padding: 0.5rem 0 0.5rem 0;
+	padding: 0.5rem;
 	margin:0;
 }
+
 
 .contact{
 	width:100%;
@@ -317,7 +324,7 @@ footer{
 .last-bar{
 	background-color:#B83E41;
 	padding: 5px;
-	margin: 1px 0 0 0;
+	margin: 8px 0 0 0;
 }
 .footer-logo{
 	width: 50%;
